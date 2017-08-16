@@ -1,0 +1,329 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-decoration: none;
+	font-family: 'Microsoft YaHei',sans-serif;
+}
+.wrapper .header .web-head{
+	position: relative;
+	height: 94px;
+	padding: 0 30px;
+	background-color:#373c64;
+}
+.wrapper .header .web-head .web-head-img{
+	background: url("../../img/deb.png") 15px;
+	height: 94px;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	width: 980px;
+}
+.wrapper .footer{
+	position: relative;
+	top: 1650px;
+	height: 80px;
+	text-align: center;
+	line-height: 80px;
+	background-color: #373c64;
+	color: #aaaec9;
+	margin-top:80px;
+}
+.wrapper .contentbox{
+	/*position: relative;*/
+	width: 980px;
+	margin: 0 auto;
+}
+.wrapper .contentbox .content-head{
+	height: 30px;
+}
+.wrapper .contentbox .content-head .text{
+	margin-top: 22px;
+	font-weight: bolder;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 18px;
+}
+.span-jpg{
+	float: left;
+	margin-top: 4px;
+}
+.wrapper .contentbox .content-write{
+	position: relative;
+}
+.wrapper .contentbox .content-write #address{
+	padding-left: 10px;
+	position: absolute;
+	z-index: 1000;
+	float: right;
+	width: 230px;
+	height: 32px;
+	line-height: 32px;
+	top: -35px;
+	left: 110px;
+	border: 1px solid #C8C8C8;
+    color: #9A9A9A;
+    font-size: 16px;
+}
+.wrapper .contentbox .content-write #search{
+	padding-left: 10px;
+	position: absolute;
+	z-index: 1000;
+	float: right;
+	width: 323px;
+	height: 32px;
+	line-height: 32px;
+	top: -35px;
+	left: 365px;
+	border: 1px solid #C8C8C8;
+    color: #9A9A9A;
+    font-size: 16px;
+}
+.wrapper .contentbox .content-write button{
+	position: absolute;
+	left: 735px;
+	top: -36px;
+	background-color: #494e7b;
+	width: 136px;
+	height: 34px;
+	line-height: 34px;
+	font-size: 14px;
+	color: #fff;
+	font-weight:700; 
+	border: none;
+}
+.wrapper .contentbox .control{
+	width: 980px;
+	margin: 0 auto;
+	position: relative;
+}
+.wrapper .contentbox .control .control-top{
+	width: 980px;
+	height: 40px;
+	padding: 12px 0 10px 0;
+	position: absolute;
+	left: 0
+
+	
+}
+.wrapper .control .jobcate ul{
+	position: relative;
+}
+.wrapper .control .jobcate li{
+	float: left;
+	width: 100px;
+	height: 38px;
+	line-height: 38px;
+	border-right: 1px solid #e9e9e9;
+	text-align: center;
+	color: #4b4b4b;
+	font-size: 14px;
+	font-weight: 700;
+}
+.control .jobcate li:hover{
+	cursor: pointer;
+	background-color: #494e7b;
+	color: #fff;
+}
+.control .jobcate li.click{
+	background-color: #494e7b;
+	color: #fff;
+}
+.control .coltrolList{
+	position: absolute;
+	top: 38px;
+	left: 0;
+	width: 980px;
+	margin-top: 25px;
+	height: 485px;
+}
+.control .coltrolList ul{
+	padding-left: 40px;
+}
+.control .coltrolList .list-title{
+	width: 940px;
+	height: 36px;
+	line-height: 36px;
+	background-color: #f6f6f6;
+}
+.control .coltrolList .list-title li{
+	color: #999;
+	line-height: 36px;
+	font-size: 16px;
+	float: left;
+}
+.control .coltrolList ul .spl{
+	width: 180px;
+}
+.spl{
+	padding-right: 50px;
+}
+.control .coltrolList ul .spl1{
+	width: 145px;
+}
+.control .coltrolList ul .splm{
+	width: 110px;
+}
+.control .coltrolList ul .splw{
+	width: 165px;
+}
+.control .coltrolList ul .spls{
+	width: 170px;
+}
+.control .coltrolList ul .date{
+	width: 120px;
+}
+
+.control .coltrolList .ul-job{
+	height: 42px;
+}
+.control .coltrolList .ul-job li{
+	float: left;
+	color: #8b8b8b;
+	height: 42px;
+	line-height: 42px;
+	font-size: 14px;
+}
+
+
+
+
+#page{
+	position: relative;
+	top: 562px;
+	width: 980px;
+	text-align: center;
+	height: 34px;
+}
+#page .pagebox li{
+	height: 34px;
+	padding: 0 13px;
+	line-height: 34px;
+	display: inline-block;
+	margin-left: -1px;
+	position: relative;
+	z-index: 1;
+	color: #494e7b;
+	border: 1px solid #e6e7e8;
+	font-weight: 700;
+}
+#page .pagebox .click{
+	background-color: #494e7b;
+	color: #fff;
+}
+#page .pagebox .prv{
+	display: none;
+	position: relative;
+	top: -1px;
+	padding: 0 24px 0 19px;
+	font-weight: 400;
+	font-size: 12px;
+	background: url("../../img/prevIcon.png") no-repeat;
+	background-position: 12px center;
+}
+#page .pagebox .next{
+	display: inline-block;
+	position: relative;
+	top: -1px;
+	padding: 0 24px 0 19px;
+	font-weight: 400;
+	font-size: 12px;
+	background: url("../../img/nextIcon.png") no-repeat;
+	background-position: 59px center;
+}
+#page .pagebox li:hover{
+	cursor: pointer;
+}
+
+
+
+
+.content-center{
+	position: absolute;
+	top: 780px;
+	width: 980px;
+}
+.content-center .center-text{
+	position: absolute;
+	width: 980px;
+	margin-left: 20px;
+	margin-right: 18px;
+	padding-bottom: 12px;
+	font-weight: bolder;
+	font-size: 18px;
+}
+.content-center .center-player{
+	position: absolute;
+	top: 70px;
+	width: 400px;
+	height: 300px;
+	border: 1px solid #aab0ca;
+}
+.content-center .center-player img{
+	width: 400px;
+	height: 200px;
+	margin-top: 50px;
+}
+.center-media-text{
+	position: absolute;
+	top: 70px;
+	left: 435px;
+	width: 540px;
+	height: 260px;
+	font-size: 14px;
+}
+.center-media-text p{
+	text-indent: 2em;
+	line-height: 28px;
+}
+.content-center .job-path{
+	position: absolute;
+	top: 450px;
+	width: 980px;
+	margin: 0 auto;
+}
+.content-center .feel{
+	position: absolute;
+	width: 980px;
+	top: 630px;
+}
+.feel .poster{
+	position: relative;
+	top: 50px;
+	margin: 0 auto;
+	width: 900px;
+	height: 370px;
+}
+.feel .poster .btn{
+	position: absolute;
+	cursor: pointer;
+	opacity: 0.8;
+	width: 17px;
+	height: 97px;
+	z-index: 4;
+	top: 136px;
+}
+.feel .poster .left{
+	left: -36px;
+	background: url("../../img/lunbo_arr.png") no-repeat 0 0;
+}
+.feel .poster .left:hover{
+	background-position: 0 -107px;
+}
+.feel .poster .right{
+	right: -36px;
+	background: url("../../img/lunbo_arr.png") no-repeat -36px 0;
+}
+.feel .poster .right:hover{
+	background-position: -36px -107px;
+}
+.feel .poster ul li{
+	position: absolute;
+	height: 370px;
+	width: 640px;
+	top: 0;
+	z-index: 3;
+}
+.feel .poster li img{
+	height: 100%;
+	width: 100%;
+}
