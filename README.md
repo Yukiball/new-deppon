@@ -1,2 +1,3 @@
 # new-deppon
-将原有的德邦物流界面进行webpack封装
+webpack封装的德邦物流页面仿写项目展示
+[yukiball.github.io/new-deppon/fast.html](https://yukiball.github.io/new-deppon/fast.html)
